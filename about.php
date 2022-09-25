@@ -2,6 +2,6 @@
 
     <h2>About</h2>
 
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore impedit totam porro iure reiciendis autem possimus sapiente, optio, exercitationem ipsum assumenda mollitia, recusandae expedita culpa ratione voluptatem esse quos quam?</p>
+    <p class="text-center">I am a computer science student at Salisbury University. I am learning PHP for a possible internship opportunity at Open Professional Group. This was built with PHP and mySQL using Apache and hosted locally on port 8080.</p>
 
     <?php include './inc/footer.php';?>

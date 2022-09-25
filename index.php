@@ -18,7 +18,7 @@
       $email=filter_input(INPUT_POST,'email',FILTER_SANITIZE_EMAIL);
     }
     if(empty($_POST['body'])){
-      $bodyErr="Feedback is required";
+      $bodyErr="Message is required";
     }
     else{
       $body=filter_input(INPUT_POST,'body',FILTER_SANITIZE_FULL_SPECIAL_CHARS);
@@ -44,9 +44,9 @@
 
     <img src="./img/cool-dj.jpg" class="w-25 mb-3" alt="">
 
-    <h2>Feedback</h2>
+    <h2>Contact Me</h2>
 
-    <p class="lead text-center">Leave feedback for Traversy Media</p>
+    <p class="lead text-center">Send me a Message</p>
 
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ;?>" method="POST"class="mt-4 w-75">
 
@@ -67,9 +67,9 @@
         </div>  
     </div>
       <div class="mb-3">
-        <label for="body" class="form-label">Feedback</label>
+        <label for="body" class="form-label">Message</label>
         <textarea class="form-control <?php echo !$bodyErr ?:
-          'is-invalid'; ?>" id="body" name="body" placeholder="Enter your feedback"></textarea>
+          'is-invalid'; ?>" id="body" name="body" placeholder="Enter your message"></textarea>
           <div id="validationServerFeedback" class="invalid-feedback">
           <?php echo $bodyErr;?>
         </div>  

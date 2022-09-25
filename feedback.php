@@ -5,10 +5,10 @@
 
 ?>
    
-    <h2>Feedback</h2>
+    <h2>All Messages</h2>
     <?php if(empty($feedback)):?>
 
-      <p class="lead mt3">There is no feedback.</p>
+      <p class="lead mt3">There are no messages.</p>
 
     <?php endif; ?>
 
