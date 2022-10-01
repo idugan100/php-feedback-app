@@ -1,5 +1,4 @@
-<?php include "./config/database.php";?>
-<!DOCTYPE html>
+ <?php include "./config/database.php";?>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
